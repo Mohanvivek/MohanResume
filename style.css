@@ -1,0 +1,179 @@
+body {
+  font-size: large;
+  background-color: #dbfcd7;
+}
+
+hr {
+  width: 8%;
+  border: none;
+  border-top: 9px dotted rgb(157, 184, 150);
+  text-align: center;
+  height: 5px;
+}
+
+img {
+  width: 50%;
+  display: block;
+ margin:20px auto 20px ;
+ 
+}
+
+.center {
+  position: absolute;
+  top: 10rem;
+}
+
+.tech {
+  position: absolute;
+  
+   
+}
+
+.display {
+  position: relative;
+  display: block;
+  left: 10rem;
+  top:10rem
+}
+/*h1 {
+  color: rgb(33, 97, 7);
+}
+
+.h4 {
+  color: rgb(33, 97, 7);
+}*/
+
+#name, #company, #phone, #mail, #message {
+  position:absolute;
+  left: 150px;
+}
+
+#submit {
+  position: relative;
+  top: 50px;
+}
+
+
+
+#round {
+  border-radius: 20%;
+
+}
+#profile h2 {
+  color: rgb(33, 97, 7);
+}
+
+.content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+ 
+}
+
+.box {
+  background-color: #77c16f;
+  
+  height: 600px;
+  padding: 20px;
+  position: relative;
+}
+
+#submit {
+  position: relative;
+  
+}
+.gridcontain {
+  display: grid;
+  gap: 10px 25px;
+  grid-template-columns: auto auto;
+ position: relative;
+ left: 60%;
+}
+.softskill, .interestp {
+  position: relative;
+ left: 40%;
+}
+ 
+footer{
+  background-color: darkgray;
+  padding-left: 48%;
+  
+}
+.insta {
+  width: 2rem;
+  display: inline ;
+  
+  
+ 
+}
+
+.facebook {
+  width: 2rem;
+  display: inline ;
+  
+  
+ 
+}
+.Educational, .Professional {
+  position: relative;
+ left: 35%;
+}
+
+.gridelementHead {
+  grid-column-start:1 ;
+  grid-column-end: 3;
+  padding-left:70px ;
+  font-weight: bold;
+  font-size: 1.3rem;
+  
+}
+
+.gridelementh {
+  font-weight: bold;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#profile {
+ position: fixed; 
+
+}
+/*.btn {
+    position:top right
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }*/

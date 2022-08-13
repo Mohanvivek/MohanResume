@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Mohan</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="webfavicon.jpg">
+</head>
+
+<body>
+    <p>
+    <h2>Contact me</h2>
+    </p>
+    <address>V.Mohanasundaram,<br>Erode-4.</address>
+    <p><a href="mailto:mohanasundaram.vivek@gmail.com">mohanasundaram.vivek@gmail.com</a></p>
+    <hr>
+    <form id="mh" onsubmit="return false" enctype="text/plain">
+        <label for="name">Your Name</label>
+        <input type="text" name="namee" id="name"><br>
+        <label for="company">Company Name</label>
+        <input type="text" name="company" id="company"><br>
+        <label for="phone">Ph.</label>
+        <input type="number" name="phone" id="phone"><br>
+        <label for="mail">Mail id</label>
+        <input type="email" name="mail" id="mail"><br>
+        <textarea name="message" id="message" placeholder="Message"></textarea><br>
+        <input id="submit" type="submit" value="Submit" onclick="displayandclear()">
+    </form>
+    <div class="display">
+        <label id="dName"></label><br>
+        <label id="dCompany"></label><br>
+        <label id="dPhone"></label><br>
+        <label id="dMailId"></label><br>
+        <label id="dMessage"></label><br>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>

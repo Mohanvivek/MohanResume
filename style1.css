@@ -1,0 +1,26 @@
+.top {
+    margin: 0;
+   width: 200px;
+
+    height: 200px;
+    background-color : rgb(188, 248, 184);
+  }
+  body {
+    margin: 0;
+   
+  }
+  .middle {
+    width: 200px;
+    height: 200px;
+    background-color : rgb(255, 4, 4);
+    position: absolute; left: 200px;
+  }
+  
+  .bottom {
+    width: 200px;
+    height: 200px;
+    
+    background-color : rgb(91, 4, 254);
+    position: absolute; left: 400px; bottom: 200px;
+  }
+  
